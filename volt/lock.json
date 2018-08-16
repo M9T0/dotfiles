@@ -71,6 +71,11 @@
       "type": "git",
       "path": "github.com/fatih/vim-go",
       "version": "04699c8916c777ad3c6dc8a803d55d8d222b3026"
+    },
+    {
+      "type": "git",
+      "path": "github.com/kien/rainbow_parentheses.vim",
+      "version": "eb8baa5428bde10ecc1cb14eed1d6e16f5f24695"
     }
   ],
   "profiles": [
@@ -90,7 +95,8 @@
         "github.com/vim-ruby/vim-ruby",
         "github.com/vim-syntastic/syntastic",
         "github.com/leafgarland/typescript-vim",
-        "github.com/fatih/vim-go"
+        "github.com/fatih/vim-go",
+        "github.com/kien/rainbow_parentheses.vim"
       ]
     }
   ]

@@ -66,6 +66,11 @@
       "type": "git",
       "path": "github.com/leafgarland/typescript-vim",
       "version": "db131b8cd42973ed26928e9e445c1a745a98cff8"
+    },
+    {
+      "type": "git",
+      "path": "github.com/fatih/vim-go",
+      "version": "04699c8916c777ad3c6dc8a803d55d8d222b3026"
     }
   ],
   "profiles": [
@@ -84,7 +89,8 @@
         "github.com/rust-lang/rust.vim",
         "github.com/vim-ruby/vim-ruby",
         "github.com/vim-syntastic/syntastic",
-        "github.com/leafgarland/typescript-vim"
+        "github.com/leafgarland/typescript-vim",
+        "github.com/fatih/vim-go"
       ]
     }
   ]

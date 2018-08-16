@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "current_profile_name": "default",
+  "repos": [
+    {
+      "type": "git",
+      "path": "github.com/cocopon/iceberg.vim",
+      "version": "cf2f3c2cfd55453b63c0d91c22920643da1de922"
+    },
+    {
+      "type": "git",
+      "path": "github.com/Shougo/junkfile.vim",
+      "version": "9cdae217a294c1775d9075a99d7f78e0aef74c30"
+    },
+    {
+      "type": "git",
+      "path": "github.com/itchyny/lightline.vim",
+      "version": "0532dff598abca9975d3f80128eaadadbf1d91d4"
+    },
+    {
+      "type": "git",
+      "path": "github.com/Shougo/neomru.vim",
+      "version": "97540f54fa20b94daf306f0c1f3cce983bbf7a1d"
+    },
+    {
+      "type": "git",
+      "path": "github.com/majutsushi/tagbar",
+      "version": "387bbadda98e1376ff3871aa461b1f0abd4ece70"
+    },
+    {
+      "type": "git",
+      "path": "github.com/gnperdue/vim-asciidoc",
+      "version": "b01b5eaabe4b0afbb4a0eae21617cc3a793afe38"
+    },
+    {
+      "type": "git",
+      "path": "github.com/jremmen/vim-ripgrep",
+      "version": "f7c1549c0ba6010a399023e95d86e6274526aeb4"
+    },
+    {
+      "type": "git",
+      "path": "github.com/tpope/vim-fugitive",
+      "version": "7b0aa580905673b57b1bfeab6a260b8193633cf2"
+    },
+    {
+      "type": "git",
+      "path": "github.com/tpope/vim-haml",
+      "version": "cac9d806f05178c642ce27aa4dfa9763b1afea4c"
+    },
+    {
+      "type": "git",
+      "path": "github.com/rust-lang/rust.vim",
+      "version": "e2cf315fb89dfcc3050da1a885129b1baa7f4889"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-ruby/vim-ruby",
+      "version": "68aa43c524b20aaaa269265d315a87b89e6d0148"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-syntastic/syntastic",
+      "version": "0dde090ed41b383b1fa56f8db49d89e0735b1ca9"
+    },
+    {
+      "type": "git",
+      "path": "github.com/leafgarland/typescript-vim",
+      "version": "db131b8cd42973ed26928e9e445c1a745a98cff8"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "default",
+      "repos_path": [
+        "github.com/cocopon/iceberg.vim",
+        "github.com/Shougo/junkfile.vim",
+        "github.com/itchyny/lightline.vim",
+        "github.com/Shougo/neomru.vim",
+        "github.com/majutsushi/tagbar",
+        "github.com/gnperdue/vim-asciidoc",
+        "github.com/jremmen/vim-ripgrep",
+        "github.com/tpope/vim-fugitive",
+        "github.com/tpope/vim-haml",
+        "github.com/rust-lang/rust.vim",
+        "github.com/vim-ruby/vim-ruby",
+        "github.com/vim-syntastic/syntastic",
+        "github.com/leafgarland/typescript-vim"
+      ]
+    }
+  ]
+}

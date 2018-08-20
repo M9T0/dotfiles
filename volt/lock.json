@@ -40,7 +40,7 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "7b0aa580905673b57b1bfeab6a260b8193633cf2"
+      "version": "ed36717a686e2cba5a5338c2ba468d97e9a42968"
     },
     {
       "type": "git",
@@ -50,7 +50,7 @@
     {
       "type": "git",
       "path": "github.com/rust-lang/rust.vim",
-      "version": "e2cf315fb89dfcc3050da1a885129b1baa7f4889"
+      "version": "e2b16e28e9eefe29e1fb6aae2f36f34a39404cd8"
     },
     {
       "type": "git",
@@ -76,6 +76,11 @@
       "type": "git",
       "path": "github.com/kien/rainbow_parentheses.vim",
       "version": "eb8baa5428bde10ecc1cb14eed1d6e16f5f24695"
+    },
+    {
+      "type": "git",
+      "path": "github.com/Shougo/unite.vim",
+      "version": "7ed231f2dbceb82b3ed81dc5ef999c94c2528586"
     }
   ],
   "profiles": [
@@ -96,7 +101,8 @@
         "github.com/vim-syntastic/syntastic",
         "github.com/leafgarland/typescript-vim",
         "github.com/fatih/vim-go",
-        "github.com/kien/rainbow_parentheses.vim"
+        "github.com/kien/rainbow_parentheses.vim",
+        "github.com/Shougo/unite.vim"
       ]
     }
   ]

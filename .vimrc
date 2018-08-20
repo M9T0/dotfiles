@@ -25,7 +25,8 @@ set laststatus=2
 set wildmenu
 
 set nobackup
-
+set noundofile
+set noswapfile
 
 "" Unite
 "インサートモードで開始
@@ -66,4 +67,19 @@ function! s:unite_my_settings()"{{{
     nmap <buffer> <ESC> <Plug>(unite_exit)
 endfunction"}}}
 
+" rainbow_parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+" lightline
+if !has('gui_running')
+    set t_Co=256
+endif
+let g:lightline = {
+    \ 'colorscheme': 'wombat',
+    \ }
+
+" colorscheme
 colorscheme iceberg

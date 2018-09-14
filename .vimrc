@@ -1,4 +1,5 @@
 set encoding=utf-8
+set fileencodings=sjis,euc
 set mouse=a
 
 if &compatible

@@ -91,6 +91,11 @@
       "type": "git",
       "path": "github.com/ngmy/vim-rubocop",
       "version": "1c57918086d22cc9db829125f6b78226feae86a3"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-scripts/a.vim",
+      "version": "2cbe946206ec622d9d8cf2c99317f204c4d41885"
     }
   ],
   "profiles": [
@@ -114,7 +119,8 @@
         "github.com/kien/rainbow_parentheses.vim",
         "github.com/Shougo/unite.vim",
         "github.com/vim-perl/vim-perl",
-        "github.com/ngmy/vim-rubocop"
+        "github.com/ngmy/vim-rubocop",
+        "github.com/vim-scripts/a.vim"
       ]
     }
   ]

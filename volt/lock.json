@@ -81,6 +81,16 @@
       "type": "git",
       "path": "github.com/Shougo/unite.vim",
       "version": "7ed231f2dbceb82b3ed81dc5ef999c94c2528586"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-perl/vim-perl",
+      "version": "21d0a0d795336acf8a9306da35f379c32cfc5e08"
+    },
+    {
+      "type": "git",
+      "path": "github.com/ngmy/vim-rubocop",
+      "version": "1c57918086d22cc9db829125f6b78226feae86a3"
     }
   ],
   "profiles": [
@@ -102,7 +112,9 @@
         "github.com/leafgarland/typescript-vim",
         "github.com/fatih/vim-go",
         "github.com/kien/rainbow_parentheses.vim",
-        "github.com/Shougo/unite.vim"
+        "github.com/Shougo/unite.vim",
+        "github.com/vim-perl/vim-perl",
+        "github.com/ngmy/vim-rubocop"
       ]
     }
   ]

@@ -27,7 +27,6 @@ set wildmenu
 set nobackup
 set noundofile
 
-
 "" Unite
 "インサートモードで開始
 let g:unite_enable_start_insert=1
@@ -73,4 +72,13 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+" lightline
+if !has('gui_running')
+    set t_Co=256
+endif
+let g:lightline = {
+    \ 'colorscheme': 'wombat',
+    \ }
+
+" colorscheme
 colorscheme iceberg

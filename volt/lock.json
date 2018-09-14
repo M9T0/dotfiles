@@ -15,7 +15,7 @@
     {
       "type": "git",
       "path": "github.com/itchyny/lightline.vim",
-      "version": "0532dff598abca9975d3f80128eaadadbf1d91d4"
+      "version": "166f179cf89320b1b6f95def3a49fda448f4f711"
     },
     {
       "type": "git",
@@ -35,22 +35,22 @@
     {
       "type": "git",
       "path": "github.com/jremmen/vim-ripgrep",
-      "version": "f7c1549c0ba6010a399023e95d86e6274526aeb4"
+      "version": "ec87af6b69387abb3c4449ce8c4040d2d00d745e"
     },
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "ed36717a686e2cba5a5338c2ba468d97e9a42968"
+      "version": "6cd8ff77f03b08ae133e35fabd87122a50231c36"
     },
     {
       "type": "git",
       "path": "github.com/tpope/vim-haml",
-      "version": "cac9d806f05178c642ce27aa4dfa9763b1afea4c"
+      "version": "ca22091688b108beafbe02fcc874eaf8d077b1ca"
     },
     {
       "type": "git",
       "path": "github.com/rust-lang/rust.vim",
-      "version": "e2b16e28e9eefe29e1fb6aae2f36f34a39404cd8"
+      "version": "1eb6598a72ff2746118451147817c718e40b5769"
     },
     {
       "type": "git",
@@ -60,7 +60,7 @@
     {
       "type": "git",
       "path": "github.com/vim-syntastic/syntastic",
-      "version": "0dde090ed41b383b1fa56f8db49d89e0735b1ca9"
+      "version": "0295d8241db23e24b120e0360a899cb375793a1e"
     },
     {
       "type": "git",
@@ -70,7 +70,7 @@
     {
       "type": "git",
       "path": "github.com/fatih/vim-go",
-      "version": "04699c8916c777ad3c6dc8a803d55d8d222b3026"
+      "version": "8df48b2c2c8aa02dd5ab00b6e9f35b0b9808d798"
     },
     {
       "type": "git",

@@ -25,6 +25,7 @@ set laststatus=2
 set wildmenu
 
 set nobackup
+set noundofile
 
 
 "" Unite

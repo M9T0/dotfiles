@@ -15,7 +15,7 @@
     {
       "type": "git",
       "path": "github.com/itchyny/lightline.vim",
-      "version": "166f179cf89320b1b6f95def3a49fda448f4f711"
+      "version": "47765c787ddc981c2eab6105ade84067d164893c"
     },
     {
       "type": "git",
@@ -40,7 +40,7 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "6cd8ff77f03b08ae133e35fabd87122a50231c36"
+      "version": "9fec8aadc54372cbea6ac3c9cf6909054140b573"
     },
     {
       "type": "git",
@@ -50,7 +50,7 @@
     {
       "type": "git",
       "path": "github.com/rust-lang/rust.vim",
-      "version": "1eb6598a72ff2746118451147817c718e40b5769"
+      "version": "5e4672c8ba490d2663c34d89616729b36b294594"
     },
     {
       "type": "git",
@@ -70,7 +70,7 @@
     {
       "type": "git",
       "path": "github.com/fatih/vim-go",
-      "version": "8df48b2c2c8aa02dd5ab00b6e9f35b0b9808d798"
+      "version": "1656f2ff1bb8c4865b2e9870c2be3468974c6ea9"
     },
     {
       "type": "git",

@@ -40,7 +40,7 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "2845e6dc4fa33aa1b97435b779b11b4948539f15"
+      "version": "0fd64f8fbfa7eda26a7dcc7d3102843edbe2324d"
     },
     {
       "type": "git",
@@ -50,7 +50,7 @@
     {
       "type": "git",
       "path": "github.com/rust-lang/rust.vim",
-      "version": "adc4db764c0a55515dc34d047fed64a74750c57a"
+      "version": "dabc34282597226da5f177ff23b1c4981433dc15"
     },
     {
       "type": "git",
@@ -70,7 +70,7 @@
     {
       "type": "git",
       "path": "github.com/fatih/vim-go",
-      "version": "ad72ecc70798b32e9c57fe8cfdbf97a931b72039"
+      "version": "d5ce080c25806d68189be641e19996898138f1a4"
     },
     {
       "type": "git",
@@ -96,6 +96,11 @@
       "type": "git",
       "path": "github.com/vim-scripts/a.vim",
       "version": "2cbe946206ec622d9d8cf2c99317f204c4d41885"
+    },
+    {
+      "type": "git",
+      "path": "github.com/easymotion/vim-easymotion",
+      "version": "1a0244c90c3ff46219cf9597bb13662be4232407"
     }
   ],
   "profiles": [
@@ -120,7 +125,8 @@
         "github.com/Shougo/unite.vim",
         "github.com/vim-perl/vim-perl",
         "github.com/ngmy/vim-rubocop",
-        "github.com/vim-scripts/a.vim"
+        "github.com/vim-scripts/a.vim",
+        "github.com/easymotion/vim-easymotion"
       ]
     }
   ]

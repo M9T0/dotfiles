@@ -13,7 +13,7 @@ setopt hist_ignore_dups
 
 ###########
 # zplug
-source ‾/.zplug/init.zsh
+source ~/.zplug/init.zsh
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure"
@@ -35,6 +35,13 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load
 ###########
+
+export LANG=ja_JP.UTF-8
+export PATH=~/.cargo/bin:$PATH
+export PATH=~/go/bin:$PATH
+export OPENSSL_INCLUDE_DIR=/usr/include/openssl-1.0
+export OPENSSL_LIB_DIR=/usr/lib/openssl-1.0
+export LIBGL_ALWAYS_INDIRECT=1
 
 alias ls=exa
 alias cat=bat

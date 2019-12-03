@@ -27,34 +27,24 @@ set wildmenu
 set nobackup
 set noundofile
 
-" deinがインストールされるディレクトリの指定
-let s:dein_dir = expand('~/.cache/dein') "<- dein によってプラグインがインストールされるディレクトリ
-let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
-
-" deinがインストールされているかをチェック
-" インストールされていなかったらdeinをダウンロードしてくる
-if &runtimepath !~# '/dein.vim'
-    if !isdirectory(s:dein_repo_dir)
-        execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
-    endif
-    execute 'set runtimepath+=' . fnamemodify(s:dein_repo_dir, ':p')
-endif
-
-if dein#load_state('~/.cache/dein')
-    call dein#begin('~/.cache/dein')
-    call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-
-    let g:rc_dir = expand('~/.vim/dein')
-    let s:toml = g:rc_dir . '/dein.toml'
-    call dein#load_toml(s:toml, {'lazy': 0})
-
-    call dein#end()
-    call dein#save_state()
-endif
-
-if dein#check_install()
-    call dein#install()
-endif
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go', { 'for': ['go'] }
+Plug 'w0rp/ale'
+Plug 'itchyny/lightline.vim'
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'cespare/vim-toml', { 'for': ['toml'] }
+Plug 'thinca/vim-quickrun'
+Plug 'maximbaz/lightline-ale'
+Plug 'cocopon/iceberg.vim'
+Plug 'trevordmiller/nova-vim'
+Plug 'junegunn/fzf'
+Plug 'tpope/vim-fugitive'
+Plug 'cocopon/vaffle.vim'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'elixir-editors/vim-elixir'
+call plug#end()
 
 filetype plugin indent on
 syntax enable

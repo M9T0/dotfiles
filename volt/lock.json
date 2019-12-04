@@ -5,7 +5,7 @@
     {
       "type": "git",
       "path": "github.com/cocopon/iceberg.vim",
-      "version": "cf2f3c2cfd55453b63c0d91c22920643da1de922"
+      "version": "0a18b0fbfdcdace35ee7ff4397ab6932d6dae1da"
     },
     {
       "type": "git",
@@ -15,7 +15,7 @@
     {
       "type": "git",
       "path": "github.com/itchyny/lightline.vim",
-      "version": "166f179cf89320b1b6f95def3a49fda448f4f711"
+      "version": "47765c787ddc981c2eab6105ade84067d164893c"
     },
     {
       "type": "git",
@@ -40,7 +40,7 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "6cd8ff77f03b08ae133e35fabd87122a50231c36"
+      "version": "0fd64f8fbfa7eda26a7dcc7d3102843edbe2324d"
     },
     {
       "type": "git",
@@ -50,27 +50,27 @@
     {
       "type": "git",
       "path": "github.com/rust-lang/rust.vim",
-      "version": "1eb6598a72ff2746118451147817c718e40b5769"
+      "version": "dabc34282597226da5f177ff23b1c4981433dc15"
     },
     {
       "type": "git",
       "path": "github.com/vim-ruby/vim-ruby",
-      "version": "68aa43c524b20aaaa269265d315a87b89e6d0148"
+      "version": "a85f078d06ed11faf1b243315d67b6f37326686d"
     },
     {
       "type": "git",
       "path": "github.com/vim-syntastic/syntastic",
-      "version": "0295d8241db23e24b120e0360a899cb375793a1e"
+      "version": "89e485c7f8b1f285b43bb397394f22b79021aac1"
     },
     {
       "type": "git",
       "path": "github.com/leafgarland/typescript-vim",
-      "version": "db131b8cd42973ed26928e9e445c1a745a98cff8"
+      "version": "0e9d92eead2df21abe342c4341c55536dd36b0af"
     },
     {
       "type": "git",
       "path": "github.com/fatih/vim-go",
-      "version": "8df48b2c2c8aa02dd5ab00b6e9f35b0b9808d798"
+      "version": "d5ce080c25806d68189be641e19996898138f1a4"
     },
     {
       "type": "git",
@@ -80,7 +80,7 @@
     {
       "type": "git",
       "path": "github.com/Shougo/unite.vim",
-      "version": "7ed231f2dbceb82b3ed81dc5ef999c94c2528586"
+      "version": "e68ccde4192b3faa3717897e65dc7dd8ab87524a"
     },
     {
       "type": "git",
@@ -91,6 +91,16 @@
       "type": "git",
       "path": "github.com/ngmy/vim-rubocop",
       "version": "1c57918086d22cc9db829125f6b78226feae86a3"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-scripts/a.vim",
+      "version": "2cbe946206ec622d9d8cf2c99317f204c4d41885"
+    },
+    {
+      "type": "git",
+      "path": "github.com/easymotion/vim-easymotion",
+      "version": "1a0244c90c3ff46219cf9597bb13662be4232407"
     }
   ],
   "profiles": [
@@ -114,7 +124,9 @@
         "github.com/kien/rainbow_parentheses.vim",
         "github.com/Shougo/unite.vim",
         "github.com/vim-perl/vim-perl",
-        "github.com/ngmy/vim-rubocop"
+        "github.com/ngmy/vim-rubocop",
+        "github.com/vim-scripts/a.vim",
+        "github.com/easymotion/vim-easymotion"
       ]
     }
   ]
